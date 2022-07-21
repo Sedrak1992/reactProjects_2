@@ -1,4 +1,6 @@
-function Box2({ paragraph }) {
+
+import "../css/box.css"
+function Box({ paragraph }) {
     return (
       <div className="box">
         <p>{paragraph}</p>
@@ -6,5 +8,5 @@ function Box2({ paragraph }) {
     );
   }
   
-  export default Box2;
+  export default Box;
   

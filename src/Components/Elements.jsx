@@ -1,4 +1,4 @@
-import Box2 from "./Box2/Box2.jsx";
+import Box from "./Box.jsx";
 
 function Elements() {
         const boxes = [
@@ -12,7 +12,7 @@ function Elements() {
         return (
           <div className="box2">
             {boxes.map((boxItem,i) => (
-              <Box2 key={i} paragraph={boxItem.paragraph} />
+              <Box key={i} paragraph={boxItem.paragraph} />
             ))}
           </div>
         );
