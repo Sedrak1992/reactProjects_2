@@ -3,7 +3,7 @@ import "../css/box.css"
 function Box({ paragraph }) {
     return (
       <div className="box">
-        <p>{paragraph}</p>
+        <h3>{paragraph}</h3>
       </div>
     );
   }
